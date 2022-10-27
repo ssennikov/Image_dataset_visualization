@@ -1,0 +1,5 @@
+BATCH_SIZE = 32
+NUM_EPOCHS = 11
+LEARNING_RATE = 1e-5
+TRAIN_IMG_DIR = "train/"
+TEST_IMG_DIR = "test/"
