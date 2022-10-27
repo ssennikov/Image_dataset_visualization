@@ -4,10 +4,10 @@ import torch.optim as optim
 from torchvision import transforms, datasets, models
 from torch.utils.data import random_split
 from torch.utils.data import DataLoader
-from train import train_model
-from predict import move_predictions
-from visualize import get_visualization
-from const import *
+from src.train import train_model
+from src.predict import move_predictions
+from src.visualize import get_visualization
+from src.const import *
 
 
 def main():
